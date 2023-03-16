@@ -15,11 +15,11 @@ public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner leer= new Scanner(System.in);
         String frase;
-        System.out.println("Ingrese una frase");
+        System.out.print("Ingrese una frase: ");
         frase=leer.nextLine();
         frase=frase.toUpperCase();
         System.out.println( frase);
-        frase=frase.toLowerCase();
-        System.out.println( frase);
+       
+        System.out.println( frase.toLowerCase());
     }
 }

@@ -15,7 +15,7 @@ public class Ejercicio1 {
         int resta;
         suma=4+5;
         resta=suma-12;
-        System.out.println("La suma es: "+suma+ " la resta es: " + resta);
+        System.out.println("La suma es: "+suma+"  "+ " la resta es: " + resta);
     }
     
 }
